@@ -1,0 +1,11 @@
+{
+  "name": "line-dash",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Neon isometric light-cycle duel — local 1v1 (Phase 1)",
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes serve . -p 3000",
+    "lint": "node --check src/main.js"
+  }
+}

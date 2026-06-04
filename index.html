@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="LINE DASH — neon isometric light-cycle duel for two players." />
+    <title>LINE DASH</title>
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body>
+    <main class="app" id="app">
+      <canvas id="game" aria-label="LINE DASH game arena"></canvas>
+      <section class="hud" id="ui" aria-live="polite">
+        <p class="hud__score" data-ui="score"></p>
+        <h1 class="hud__title" data-ui="title"></h1>
+        <p class="hud__subtitle" data-ui="subtitle"></p>
+        <p class="hud__status" data-ui="status"></p>
+        <p class="hud__hint" data-ui="hint"></p>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
